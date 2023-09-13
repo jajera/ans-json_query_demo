@@ -1,6 +1,7 @@
 name: markdown-lint
 on:
-  pull_request: {}
+  push:
+    branches: [main]
 permissions:
   statuses: write
   checks: write
